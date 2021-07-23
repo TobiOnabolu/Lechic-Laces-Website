@@ -7,9 +7,9 @@ function App() {
     <div className="App">
       <Router>
       <Navbar/>
-      <Swith>hello
-        <Home/>
-      </Swith>
+      <Switch>hello
+        <Router path='/' exact />
+      </Switch>
       </Router>
     </div>
   );
